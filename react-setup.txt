@@ -1,8 +1,8 @@
 1- npx create-react-app my-app
 2- npm install react-scripts@latest
-3- 
+3- npm install prettifier
 
-7- make a .prettierrc.json and add code below:
+4- make a .prettierrc.json and add code below:
 {
   "semi": true,
   "singleQuote": true,
@@ -11,16 +11,16 @@
   "endOfLine": "lf"
 }
 
-8- npm install sass 
+5- npm install sass 
 	then change the css file to .scss
 
 
 ////////////////////////////////////// eslint //////////////////////
-3- npm install -D eslint prettier eslint-config-prettier
-4- npx eslint --init
-5- npm install -D eslint-plugin-react-hooks
+6- npm install -D eslint prettier eslint-config-prettier
+7- npx eslint --init
+8- npm install -D eslint-plugin-react-hooks
 
-6- add to the .eslintrc.json
+9- add to the .eslintrc.json
 {
   "env": {
     "browser": true,
