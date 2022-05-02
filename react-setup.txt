@@ -1,0 +1,49 @@
+1- npx create-react-app my-app
+2- npm install react-scripts@latest
+3- 
+
+7- make a .prettierrc.json and add code below:
+{
+  "semi": true,
+  "singleQuote": true,
+  "trailingComma": "es5",
+  "arrowParens": "avoid",
+  "endOfLine": "lf"
+}
+
+8- npm install sass 
+	then change the css file to .scss
+
+
+////////////////////////////////////// eslint //////////////////////
+3- npm install -D eslint prettier eslint-config-prettier
+4- npx eslint --init
+5- npm install -D eslint-plugin-react-hooks
+
+6- add to the .eslintrc.json
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": ["plugin:react-hooks/recommended", "prettier", "google"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["react"],
+  "rules": {
+     "react/react-in-jsx-scope": "off",
+    "linebreak-style": 0,
+    "require-jsdoc": 0,
+    "object-curly-spacing": "off",
+    "@typescript-eslint/object-curly-spacing": ["error"],
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-page-custom-font": "off",
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false
+  }
+}

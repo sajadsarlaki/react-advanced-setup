@@ -1,0 +1,20 @@
+{
+  "name": "react-project-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sajad.s",
+  "license": "ISC",
+  "dependencies": {
+    "prettifier": "^0.4.0",
+    "react-scripts": "^5.0.1",
+    "sass": "^1.51.0",
+    "taskz": "^3.0.0"
+  },
+  "devDependencies": {
+    "prettier": "2.6.2"
+  }
+}
